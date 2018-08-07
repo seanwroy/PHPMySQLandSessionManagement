@@ -36,7 +36,8 @@
 
                 $query = "SELECT * FROM GPU;";
                 $result = mysqli_query($conn, $query);
-
+                
+                //Builds a table based on records in database
                 if (mysqli_num_rows($result) > 0) {
                     while ($row = mysqli_fetch_assoc($result)) {
                         echo "<tr>";
