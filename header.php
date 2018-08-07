@@ -1,4 +1,5 @@
 <?php  
+    //If there is an active session, hides login button
     if (isset($_SESSION['username'])) {
             // Switches the login button with a logout button
             $style = "style='display:none;'";
