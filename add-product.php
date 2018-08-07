@@ -50,7 +50,8 @@
                     </tr>
                 </table>
             </form>
-
+            
+            //Gets result from add-product.php page and determines whether it was successful or not
             <?php
             $style = "style='margin-left:200px;'";
             if (isset($_REQUEST['result'])) {
