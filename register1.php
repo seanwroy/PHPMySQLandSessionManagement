@@ -15,6 +15,7 @@
     $lowercase = preg_match('@[a-z]@', $password);
     $number    = preg_match('@[0-9]@', $password);
     
+    //Basic validation code for use in register.php
     if (strlen($username) < 8) {
         header("location:register.php?result=badusername");
     } else if (!$uppercase || !$lowercase || !$number || strlen($password) < 8) {
