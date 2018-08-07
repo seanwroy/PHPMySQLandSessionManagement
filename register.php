@@ -30,6 +30,7 @@
             </div>
         </form>
         
+        //Connects to basic validation in register1.php for username and password
         <?php
             if (isset($_REQUEST['result'])) {
                 if ($_REQUEST['result'] == "success") {
