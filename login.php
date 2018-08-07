@@ -30,6 +30,7 @@
             </div>
         </form>
         
+        //Checks login info in login1.php to determine if it is valid
         <?php
             if (isset($_REQUEST['result'])) {
                 if ($_REQUEST['result'] == "fail") {
