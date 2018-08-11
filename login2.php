@@ -9,6 +9,7 @@
     $username = $_REQUEST['username'];
     $password = $_REQUEST['password'];
 
+    //Login and authentication code
     $query = "SELECT username FROM tblUsers WHERE username = ? AND password = ?";
 
     if ($stmt = mysqli_prepare($conn, $query)) {
